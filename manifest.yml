@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: paltalk
+  host: paltalk
+  disk_quota: 1024M
+  services:
+  - MQ Light-r6
+  buildpack: php_buildpack
